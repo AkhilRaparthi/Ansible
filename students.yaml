@@ -1,0 +1,33 @@
+- name: "Akhil Raparthi"
+  dob: "20-06-2000"
+  adrdress: 
+  - HNO: "6-3-68"
+    Street: "Chinnabazar"
+    City: "kothagudem"
+    State: "Telangana"
+    Country: "India"
+    type: "permanent"
+
+  - HNO: "12/88"
+    Street: "Sri ram nagar"
+    City: "hyderabad"
+    State: "Telangana"
+    Country: "India"
+    type: "current"
+
+- name: "Sai"
+  dob: "20-06-2000"
+  adrdress: 
+  - HNO: "6-3-68"
+    Street: "palvancha"
+    City: "kothagudem"
+    State: "Telangana"
+    Country: "India"
+    type: "permanent"
+  - HNO: "12/88"
+    Street: "gowlidoddy"
+    City: "hyderabad"
+    State: "Telangana"
+    Country: "India"
+    type: "current"
+  
