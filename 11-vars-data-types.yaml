@@ -1,0 +1,23 @@
+- name: damo on data types
+  hosts: local
+  connection: local
+  vars:
+    PROGRAM: "DevSecOps with aws" #STRING
+    DURATION: 140 #INT/NUM
+    IS_LIVE: true #BOOLEAON
+    DETAILS:  #MAP/DICTIONARY
+      MONTHS: 4
+      TRAINER: "SivaKumar"
+    TOPICS: # List defined by - or []
+      - Linux
+      - Shell
+      - Ansible
+  tasks:
+    - name: print variables
+      ansible.builtin.debug:
+      msg: |
+        Program: {{PROGRAM}}
+        Duration: {{DURATION}}
+        Is Live: {{IS_LIVE}}
+        Details: {{DETAILS}}
+        Topics: {{TOPICS}}
