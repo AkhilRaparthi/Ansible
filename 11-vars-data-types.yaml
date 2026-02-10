@@ -22,5 +22,6 @@
         #   Details: {{DETAILS}}
         #   Topics: {{TOPICS}}
 
-        msg: Program {{PROGRAM}}
+        msg: 
+          Program: {{PROGRAM}}
       
