@@ -26,6 +26,6 @@
           Program: "{{PROGRAM}}"
           Duration: "{{DURATION}}"
           Is Live: "{{IS_LIVE}}"
-          Details: "{{DETAILS}}"
+        #  Details: "{{DETAILS}}"
           Topics: "{{TOPICS}}"
       
