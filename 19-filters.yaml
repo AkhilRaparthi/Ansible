@@ -30,7 +30,7 @@
 
   - name: convert string to list
     ansible.builtin.debug:
-      msg: "{{ topics | split(',') }}"
+      msg: "{{ topics | split(',') | map('trim') | list }}"
 
   - name: convert map to list
     ansible.builtin.debug:
