@@ -23,5 +23,9 @@
         #   Topics: {{TOPICS}}
 
         msg: 
-          Program: {{PROGRAM}}
+          Program: "{{PROGRAM}}"
+          Duration: "{{DURATION}}"
+          Is Live: "{{IS_LIVE}}"
+          Details: "{{DETAILS}}"
+          Topics: "{{TOPICS}}"
       
