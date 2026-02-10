@@ -24,8 +24,8 @@
 
         msg: 
           Program: "{{PROGRAM}}"
-          Duration: "{{DURATION}}"
-          Is Live: "{{IS_LIVE}}"
+        #  Duration: "{{DURATION}}"
+        #  Is Live: "{{IS_LIVE}}"
         #  Details: "{{DETAILS}}"
-          Topics: "{{TOPICS}}"
+        #  Topics: "{{TOPICS}}"
       
